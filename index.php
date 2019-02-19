@@ -1,8 +1,6 @@
 <?php 
-
 $hour = date("H");
 $minut = date("i");
-$second = date("s");
 if ($hour >= 0) 
 {
 	$class = "nacht";
@@ -27,36 +25,8 @@ if ($hour >= 0)
 
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet">
-
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-	.morgen {
-	background-image: url(opdracht/img/morning.png);
-}
-
-.evening {
-	background-image: url(opdracht/img/evening.png);
-}
-
-.night {
-	background-image: url(opdracht/img/night.png);
-}
-
-.afternoon {
-	background-image: url(opdracht/img/afternoon.png);
-}
-
-
-.center{
-    margin-left: 800px;
-    margin-top: 400px;
-}
-
-h1{
-    font-size: 60px;
-    color: white;
-}
-	</style>
 <body class="<?php echo $class;?>">
 
 	<div class="center">
