@@ -13,3 +13,14 @@
 .afternoon {
 	background-image: url(opdracht/img/afternoon.png);
 }
+
+
+.center{
+    margin-left: 800px;
+    margin-top: 400px;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+}
