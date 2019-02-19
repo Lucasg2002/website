@@ -17,6 +17,7 @@ if ($hour >= 0)
 		}
 	}
 }
+$hour++
 ?>
 
 <!DOCTYPE html>
