@@ -1,0 +1,26 @@
+.morgen {
+	background-image: url(opdracht/img/morning.png);
+}
+
+.avond {
+	background-image: url(opdracht/img/evening.png);
+}
+
+.nacht {
+	background-image: url(opdracht/img/night.png);
+}
+
+.middag {
+	background-image: url(opdracht/img/afternoon.png);
+}
+
+
+.center{
+    margin-left: 800px;
+    margin-top: 400px;
+}
+
+h1{
+    font-size: 60px;
+    color: black;
+}
