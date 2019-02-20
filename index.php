@@ -1,4 +1,5 @@
 <?php 
+  date_default_timezone_set("Europe/Amsterdam");
 $hour = date("H");
 $minut = date("i");
 if ($hour >= 0) 
@@ -17,7 +18,7 @@ if ($hour >= 0)
 		}
 	}
 }
-$hour++
+
 ?>
 
 <!DOCTYPE html>
